@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website</title>
+    <!-- Include any necessary styles or scripts here -->
+</head>
+<body>
+
+    <?php include('components/header.php'); ?>
+
+    <main class="container d-flex flex-column align-items-center mt-5">
+        <a class="btn btn-dark m-2 btn-pick-user-type" href="login.php?user=admin">ADMINISTRATOR</a>
+        <a class="btn btn-dark m-2 btn-pick-user-type" href="login.php?user=faculty">FACULTY</a>
+    </main>
+
+    <?php include('components/footer.php'); ?>
+
+</body>
+</html>
